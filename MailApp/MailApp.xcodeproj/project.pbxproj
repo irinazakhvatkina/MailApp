@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3180C6CE2CB826D30025A168 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180C6CD2CB826D30025A168 /* MessageTableViewCell.swift */; };
+		3180C6D02CB827110025A168 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180C6CF2CB827110025A168 /* Message.swift */; };
+		3180C6DB2CBC08EB0025A168 /* CategoriesHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180C6DA2CBC08EB0025A168 /* CategoriesHeaderViewCell.swift */; };
+		3180C6DF2CBD44110025A168 /* AddNewMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180C6DE2CBD44110025A168 /* AddNewMailViewController.swift */; };
+		3180C6E12CBD4D8D0025A168 /* UITextField+ Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180C6E02CBD4D8D0025A168 /* UITextField+ Extension.swift */; };
+		3180C6E72CBFE0000025A168 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180C6E62CBFE0000025A168 /* MainModel.swift */; };
+		3184CFC62CC6757400039691 /* MessageCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3184CFC52CC6757400039691 /* MessageCategory.swift */; };
+		3184CFC82CC67B0D00039691 /* SectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3184CFC72CC67B0D00039691 /* SectionItem.swift */; };
+		31B6365C2CC286B0000BB119 /* InboxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B6365B2CC286B0000BB119 /* InboxModel.swift */; };
+		31DAF9D42CAD6F6D00DDA104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DAF9D32CAD6F6D00DDA104 /* AppDelegate.swift */; };
+		31DAF9D62CAD6F6D00DDA104 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DAF9D52CAD6F6D00DDA104 /* SceneDelegate.swift */; };
+		31DAF9D82CAD6F6D00DDA104 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DAF9D72CAD6F6D00DDA104 /* MainViewController.swift */; };
+		31DAF9DD2CAD6F7100DDA104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DAF9DC2CAD6F7100DDA104 /* Assets.xcassets */; };
+		31DAF9E02CAD6F7100DDA104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DAF9DE2CAD6F7100DDA104 /* LaunchScreen.storyboard */; };
+		31DAF9E92CAD6FAB00DDA104 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 31DAF9E82CAD6FAB00DDA104 /* SnapKit */; };
+		31DAF9EB2CAD778700DDA104 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DAF9EA2CAD778700DDA104 /* Section.swift */; };
+		31DAF9EF2CB0079A00DDA104 /* MainViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DAF9EE2CB0079A00DDA104 /* MainViewTableViewCell.swift */; };
+		31DAFA612CB6A70B00DDA104 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DAFA602CB6A70B00DDA104 /* InboxViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3180C6CD2CB826D30025A168 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		3180C6CF2CB827110025A168 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3180C6DA2CBC08EB0025A168 /* CategoriesHeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesHeaderViewCell.swift; sourceTree = "<group>"; };
+		3180C6DE2CBD44110025A168 /* AddNewMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMailViewController.swift; sourceTree = "<group>"; };
+		3180C6E02CBD4D8D0025A168 /* UITextField+ Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+ Extension.swift"; sourceTree = "<group>"; };
+		3180C6E62CBFE0000025A168 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		3184CFC52CC6757400039691 /* MessageCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCategory.swift; sourceTree = "<group>"; };
+		3184CFC72CC67B0D00039691 /* SectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionItem.swift; sourceTree = "<group>"; };
+		31B6365B2CC286B0000BB119 /* InboxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxModel.swift; sourceTree = "<group>"; };
+		31DAF9D02CAD6F6D00DDA104 /* MailApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DAF9D32CAD6F6D00DDA104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31DAF9D52CAD6F6D00DDA104 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31DAF9D72CAD6F6D00DDA104 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		31DAF9DC2CAD6F7100DDA104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31DAF9DF2CAD6F7100DDA104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31DAF9E12CAD6F7100DDA104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DAF9EA2CAD778700DDA104 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		31DAF9EE2CB0079A00DDA104 /* MainViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTableViewCell.swift; sourceTree = "<group>"; };
+		31DAFA602CB6A70B00DDA104 /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InboxViewController.swift; path = MailApp/Screens/Inbox/Controller/InboxViewController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31DAF9CD2CAD6F6D00DDA104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DAF9E92CAD6FAB00DDA104 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3180C6E22CBD4D9F0025A168 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3180C6E02CBD4D8D0025A168 /* UITextField+ Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3180C6E32CBFDDD30025A168 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31DAF9EE2CB0079A00DDA104 /* MainViewTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3180C6E42CBFDDE00025A168 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31DAF9EA2CAD778700DDA104 /* Section.swift */,
+				3184CFC72CC67B0D00039691 /* SectionItem.swift */,
+				3180C6E62CBFE0000025A168 /* MainModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3180C6E52CBFDDEC0025A168 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31DAF9D72CAD6F6D00DDA104 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31B6365D2CC288A2000BB119 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3180C6CF2CB827110025A168 /* Message.swift */,
+				3184CFC52CC6757400039691 /* MessageCategory.swift */,
+				31B6365B2CC286B0000BB119 /* InboxModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31B6365E2CC288C7000BB119 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3180C6CD2CB826D30025A168 /* MessageTableViewCell.swift */,
+				3180C6DA2CBC08EB0025A168 /* CategoriesHeaderViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31B6365F2CC288CF000BB119 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31DAFA602CB6A70B00DDA104 /* InboxViewController.swift */,
+				3180C6DE2CBD44110025A168 /* AddNewMailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31DAF9C72CAD6F6D00DDA104 = {
+			isa = PBXGroup;
+			children = (
+				31DAF9D22CAD6F6D00DDA104 /* MailApp */,
+				31DAF9D12CAD6F6D00DDA104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31DAF9D12CAD6F6D00DDA104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31DAF9D02CAD6F6D00DDA104 /* MailApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31DAF9D22CAD6F6D00DDA104 /* MailApp */ = {
+			isa = PBXGroup;
+			children = (
+				3180C6E22CBD4D9F0025A168 /* Extension */,
+				31DAFA5D2CB6A41E00DDA104 /* Screens */,
+				31DAFA5C2CB6A40400DDA104 /* AppDelegate */,
+				31DAF9DC2CAD6F7100DDA104 /* Assets.xcassets */,
+				31DAF9DE2CAD6F7100DDA104 /* LaunchScreen.storyboard */,
+				31DAF9E12CAD6F7100DDA104 /* Info.plist */,
+			);
+			path = MailApp;
+			sourceTree = "<group>";
+		};
+		31DAFA5C2CB6A40400DDA104 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				31DAF9D32CAD6F6D00DDA104 /* AppDelegate.swift */,
+				31DAF9D52CAD6F6D00DDA104 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		31DAFA5D2CB6A41E00DDA104 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				31DAFA5F2CB6A68C00DDA104 /* Inbox */,
+				31DAFA5E2CB6A42B00DDA104 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		31DAFA5E2CB6A42B00DDA104 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3180C6E42CBFDDE00025A168 /* Model */,
+				3180C6E32CBFDDD30025A168 /* View */,
+				3180C6E52CBFDDEC0025A168 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		31DAFA5F2CB6A68C00DDA104 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				31B6365D2CC288A2000BB119 /* Model */,
+				31B6365E2CC288C7000BB119 /* View */,
+				31B6365F2CC288CF000BB119 /* Controller */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31DAF9CF2CAD6F6D00DDA104 /* MailApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DAF9E42CAD6F7100DDA104 /* Build configuration list for PBXNativeTarget "MailApp" */;
+			buildPhases = (
+				31DAF9CC2CAD6F6D00DDA104 /* Sources */,
+				31DAF9CD2CAD6F6D00DDA104 /* Frameworks */,
+				31DAF9CE2CAD6F6D00DDA104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailApp;
+			packageProductDependencies = (
+				31DAF9E82CAD6FAB00DDA104 /* SnapKit */,
+			);
+			productName = MailApp;
+			productReference = 31DAF9D02CAD6F6D00DDA104 /* MailApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31DAF9C82CAD6F6D00DDA104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					31DAF9CF2CAD6F6D00DDA104 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 31DAF9CB2CAD6F6D00DDA104 /* Build configuration list for PBXProject "MailApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31DAF9C72CAD6F6D00DDA104;
+			packageReferences = (
+				31DAF9E72CAD6FAB00DDA104 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 31DAF9D12CAD6F6D00DDA104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31DAF9CF2CAD6F6D00DDA104 /* MailApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31DAF9CE2CAD6F6D00DDA104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DAF9E02CAD6F7100DDA104 /* LaunchScreen.storyboard in Resources */,
+				31DAF9DD2CAD6F7100DDA104 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31DAF9CC2CAD6F6D00DDA104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3180C6CE2CB826D30025A168 /* MessageTableViewCell.swift in Sources */,
+				3180C6DB2CBC08EB0025A168 /* CategoriesHeaderViewCell.swift in Sources */,
+				3180C6DF2CBD44110025A168 /* AddNewMailViewController.swift in Sources */,
+				3184CFC82CC67B0D00039691 /* SectionItem.swift in Sources */,
+				3184CFC62CC6757400039691 /* MessageCategory.swift in Sources */,
+				31DAF9D82CAD6F6D00DDA104 /* MainViewController.swift in Sources */,
+				31B6365C2CC286B0000BB119 /* InboxModel.swift in Sources */,
+				3180C6E12CBD4D8D0025A168 /* UITextField+ Extension.swift in Sources */,
+				31DAFA612CB6A70B00DDA104 /* InboxViewController.swift in Sources */,
+				31DAF9EB2CAD778700DDA104 /* Section.swift in Sources */,
+				31DAF9D42CAD6F6D00DDA104 /* AppDelegate.swift in Sources */,
+				3180C6E72CBFE0000025A168 /* MainModel.swift in Sources */,
+				3180C6D02CB827110025A168 /* Message.swift in Sources */,
+				31DAF9D62CAD6F6D00DDA104 /* SceneDelegate.swift in Sources */,
+				31DAF9EF2CB0079A00DDA104 /* MainViewTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31DAF9DE2CAD6F7100DDA104 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DAF9DF2CAD6F7100DDA104 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31DAF9E22CAD6F7100DDA104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31DAF9E32CAD6F7100DDA104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31DAF9E52CAD6F7100DDA104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V9RB8PY3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MailApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zi.MailApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		31DAF9E62CAD6F7100DDA104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V9RB8PY3U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MailApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zi.MailApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31DAF9CB2CAD6F6D00DDA104 /* Build configuration list for PBXProject "MailApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DAF9E22CAD6F7100DDA104 /* Debug */,
+				31DAF9E32CAD6F7100DDA104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DAF9E42CAD6F7100DDA104 /* Build configuration list for PBXNativeTarget "MailApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DAF9E52CAD6F7100DDA104 /* Debug */,
+				31DAF9E62CAD6F7100DDA104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31DAF9E72CAD6FAB00DDA104 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31DAF9E82CAD6FAB00DDA104 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31DAF9E72CAD6FAB00DDA104 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 31DAF9C82CAD6F6D00DDA104 /* Project object */;
+}
