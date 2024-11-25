@@ -24,4 +24,4 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/yourusername/MailApp.git
+git clone https://github.com/irinazakhvatkina/MailApp.git
